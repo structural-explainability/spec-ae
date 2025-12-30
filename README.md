@@ -1,5 +1,9 @@
 # Accountable Entities Specification (AE)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Build Status](https://github.com/structural-explainability/spec-ae/actions/workflows/ci.yml/badge.svg)
+[![Check Links](https://github.com/structural-explainability/spec-ae/actions/workflows/links.yml/badge.svg)](https://github.com/structural-explainability/spec-ae/actions/workflows/links.yml)
+
 > Authoritative specification of Accountable Entities (AE).
 
 ## Overview
