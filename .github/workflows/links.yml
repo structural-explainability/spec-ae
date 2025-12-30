@@ -21,20 +21,20 @@ jobs:
   lychee:
     runs-on: ubuntu-latest
 
-    permissions: # WHY: Permissions needed for PR comments and issue creation
+    permissions:
       contents: read
       issues: write
       pull-requests: write
 
     steps:
-      - name: 1) Checkout repository code # WHY: Needed to access files for link checking
+      - name: 1) Checkout repository code
         uses: actions/checkout@v6 # OBS: v6 current as of Dec 2025
 
-      - name: 2) Check links with Lychee # WHY: Check documentation and config files for broken links
-        uses: lycheeverse/lychee-action@v2 # OBS: Pin to major for stability
+      - name: 2) Check links with Lychee
+        uses: lycheeverse/lychee-action@v2
         with:
           args: >
-            --config lychee.toml 
+            --config lychee.toml
             --user-agent "${{ github.repository }}/lychee"
             './**/*.bib'
             './**/*.md'
@@ -46,9 +46,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 3) Comment on PR if links broken # WHY: Provide helpful feedback on PRs with broken links
+      - name: 3) Comment on PR if links broken
         if: failure() && github.event_name == 'pull_request'
-        uses: actions/github-script@v8 # OBS: current as of Dec 2025
+        uses: actions/github-script@v8
         with:
           script: |
             const runUrl = `${context.payload.repository.html_url}/actions/runs/${context.runId}`;
@@ -68,7 +68,7 @@ jobs:
       - name: 4) Create issue for scheduled failures # WHY: Track broken links found during scheduled checks
         # OBS: Only creates issue if none already open with 'broken-links' label
         if: failure() && github.event_name == 'schedule'
-        uses: actions/github-script@v8 # OBS: current as of Dec 2025
+        uses: actions/github-script@v8
         with:
           script: |
             const date = new Date().toISOString().split("T")[0];

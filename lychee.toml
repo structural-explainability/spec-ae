@@ -3,10 +3,10 @@
 # WHY: Configures Lychee link checker behavior for CI/CD.
 # OBS: Flat structure required by lychee v0.22+; no nested sections.
 # OBS: No path exclusions; all documentation files are expected to be link-clean.
-# OBS: Link integrity supports Structural Explainability (SE) 
+# OBS: Link integrity supports Structural Explainability (SE)
 #      by preserving stable, reconstructible references over time.
-# OBS: Link integrity also benefits Contextual Evidence & Explanations (CEE) 
-#      by maintaining the availability of cited evidence and provenance, 
+# OBS: Link integrity also benefits Contextual Evidence & Explanations (CEE)
+#      by maintaining the availability of cited evidence and provenance,
 #      without enforcing interpretation.
 
 
