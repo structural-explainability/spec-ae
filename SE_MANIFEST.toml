@@ -1,0 +1,41 @@
+schema = "se-manifest-1"
+
+[repo]
+name = "spec-ae"
+org  = "structural-explainability"
+kind = "spec"
+status = "normative"
+since = "2025"
+summary = "Defines accountable entity kinds and identity-and-persistence regimes."
+
+[layer]
+space = "SE"
+role  = "identity"
+
+[depends]
+required = ["structural-explainability/spec-se@v1"]
+optional = []
+
+[provides]
+artifacts = ["README.md", "SPEC.md", "IDENTIFIERS.md", "CONFORMANCE.md"]
+
+[scope]
+includes = [
+  "six accountable entity kinds",
+  "identity regimes and persistence constraints",
+  "structural conformance requirements",
+]
+excludes = [
+  "domain ontologies",
+  "explanations or interpretive claims",
+  "causal or normative assertions",
+  "identifier scheme monopoly",
+]
+
+[citation]
+cff = "CITATION.cff"
+preferred = "spec"
+bib_hint = "spec-ae-2025"
+
+[traceability]
+identifier_map = "none"
