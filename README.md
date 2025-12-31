@@ -52,7 +52,7 @@ Any future extension MUST:
   composition of existing kinds
 - remain neutral with respect to epistemic, causal, and normative interpretation
 
-Extension is expected to be rare and requires explicit justification.
+Extensions are expected to be rare and explicitly justified.
 
 ## Scope
 
