@@ -1,7 +1,7 @@
 # Accountable Entities Specification (AE)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
-![Build Status](https://github.com/structural-explainability/spec-ae/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/structural-explainability/spec-ae/actions/workflows/ci-hygiene.yml/badge.svg?branch=main)
 [![Check Links](https://github.com/structural-explainability/spec-ae/actions/workflows/links.yml/badge.svg)](https://github.com/structural-explainability/spec-ae/actions/workflows/links.yml)
 
 > Authoritative specification of Accountable Entities (AE).
@@ -97,3 +97,24 @@ It does not assert what an entity is, what it does, or how it should be interpre
 
 AE makes identity explicit so that structure can remain stable
 across reinterpretation, disagreement, and changing explanatory frameworks.
+
+## Developer (running pre-commit)
+
+Steps to run pre-commit locally. Install `uv`.
+
+Initialize once:
+
+```shell
+uv self update
+uvx pre-commit install
+uvx pre-commit run --all-files
+```
+
+Save progress as needed:
+
+```shell
+git add -A
+# If pre-commit makes changes, re-run `git add -A` before committing.
+git commit -m "update"
+git push -u origin main
+```
