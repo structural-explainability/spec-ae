@@ -23,7 +23,7 @@ permissions: # WHY: Use least privileges required.
 
 jobs:
   ci:
-    name: Repository checks (pre-commit)
+    name: Repository checks
     runs-on: ubuntu-latest # WHY: Linux environment matches most production deployments
     timeout-minutes: 10 # WHY: Prevent hanging jobs. If over, it is likely stuck.
 
@@ -46,7 +46,6 @@ jobs:
         with:
           globs: |
             **/*.md
-
 
       - name: B2) Lint YAML (uses .yamllint.yml)
         # WHY: Validate YAML correctness using repo-defined yamllint.yml rules.
