@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
 ![Build Status](https://github.com/structural-explainability/spec-ae/actions/workflows/ci-md.yml/badge.svg?branch=main)
 [![Check Links](https://github.com/structural-explainability/spec-ae/actions/workflows/links.yml/badge.svg)](https://github.com/structural-explainability/spec-ae/actions/workflows/links.yml)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/structural-explainability/site/security/dependabot)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/structural-explainability/spec-ae/security)
 
 > Authoritative specification of Accountable Entities (AE).
 
