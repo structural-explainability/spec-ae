@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@v6
 
       # ============================================================
-      # BASIC CHECKS: Run pre-commit checks
+      # BASIC CHECKS: Run basic checks
       # ============================================================
 
       - name: B1) Lint Markdown
@@ -72,3 +72,5 @@ jobs:
         # WHY: Ensure CITATION.cff is well-formed without making it mandatory.
         if: ${{ steps.detect_citation.outputs.present == 'true' }}
         uses: dieghernan/cff-validator@v4
+        with:
+          citation-path: CITATION.cff # WHY: Be explicit about the file validated.
