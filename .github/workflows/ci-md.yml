@@ -52,7 +52,7 @@ jobs:
         # OBS: Ensures GitHub Actions YAML and other YAML files remain valid.
         uses: ibiqlik/action-yamllint@v3
         with:
-          config_file: yamllint.yml # WHY: Use repo policy; avoid drifting defaults.
+          config_file: .yamllint.yml # WHY: Use repo policy; avoid drifting defaults.
           file_or_dir: .            # WHY: Lint YAML across the repository.
           no_warnings: true         # WHY: CI output should be actionable.
 
