@@ -1,0 +1,207 @@
+{
+  "schema": "se-boundary-conformance-checks-1",
+  "spec": {
+    "id": "AE",
+    "name": "Governance Boundary",
+    "version": "0.9.1",
+    "status": "normative"
+  },
+  "checks": [
+    {
+      "id": "AE.CONFORMANCE.SE.REQUIRED",
+      "checks": [
+        "[ ] The artifact explicitly claims conformance with Structural Explainability.",
+        "[ ] No requirement weakens, overrides, or contradicts SE neutrality constraints."
+      ],
+      "failure_conditions": [
+        "AE conformance is asserted without explicit SE conformance."
+      ]
+    },
+    {
+      "id": "AE.DEFINITION.CORE",
+      "checks": [
+        "[ ] The artifact treats accountable entity kinds as structural classifications.",
+        "[ ] The artifact treats accountable entity kinds as an accountability-facing",
+        "projection of upstream SE profile kinds.",
+        "[ ] The artifact limits scope to defining accountable entity kinds and their",
+        "required mappings to SE profile kinds."
+      ],
+      "failure_conditions": [
+        "behavioral, causal, interpretive, epistemic, evaluative, authoritative,"
+      ]
+    },
+    {
+      "id": "AE.EXTENSION.ADMISSIBILITY",
+      "checks": [
+        "[ ] No new accountable entity kinds are introduced within the current version.",
+        "[ ] No extension mechanisms bypass explicit versioning.",
+        "[ ] Any reference to future extension defers to explicit, versioned criteria."
+      ],
+      "failure_conditions": [
+        "extension is permitted without version increment and justification."
+      ]
+    },
+    {
+      "id": "AE.EXTENSION.VERSIONED_ONLY",
+      "checks": [
+        "[ ] Accountable entity kind extension is not permitted within the current version.",
+        "[ ] Version boundaries governing extension are explicit."
+      ],
+      "failure_conditions": [
+        "extension is allowed implicitly or informally."
+      ]
+    },
+    {
+      "id": "AE.IDENTITY.REGIME.MAPPING",
+      "checks": [
+        "[ ] Each accountable entity kind maps to exactly one upstream SE profile kind.",
+        "[ ] Each upstream SE profile kind is explicit and structurally defined upstream.",
+        "[ ] AE does not redefine profile identity, persistence, or transformation behavior."
+      ],
+      "failure_conditions": [
+        "profile mappings are shared ambiguously, implicit, missing, duplicated, or interpretation-dependent."
+      ]
+    },
+    {
+      "id": "AE.KIND.CLOSED_SET.V1",
+      "checks": [
+        "[ ] A closed set of accountable entity kinds is defined.",
+        "[ ] Every accountable entity is classified into exactly one accountable entity kind."
+      ],
+      "failure_conditions": [
+        "accountable entities may belong to multiple AE kinds or to none."
+      ]
+    },
+    {
+      "id": "AE.KIND.EXACT_COUNT.V1",
+      "checks": [
+        "[ ] Exactly nine accountable entity kinds are defined.",
+        "[ ] No additional accountable entity kinds are referenced or implied."
+      ],
+      "failure_conditions": [
+        "the number of accountable entity kinds differs from nine."
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.CTX_E",
+      "checks": [
+        "[ ] The `AE.KIND.PER.CTX_E` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `CTX_E` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.CTX_E` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.CTX_S",
+      "checks": [
+        "[ ] The `AE.KIND.PER.CTX_S` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `CTX_S` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.CTX_S` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.ENR_I",
+      "checks": [
+        "[ ] The `AE.KIND.PER.ENR_I` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `ENR_I` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.ENR_I` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.ENR_L",
+      "checks": [
+        "[ ] The `AE.KIND.PER.ENR_L` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `ENR_L` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.ENR_L` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.NOR_C",
+      "checks": [
+        "[ ] The `AE.KIND.PER.NOR_C` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `NOR_C` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.NOR_C` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.NOR_S",
+      "checks": [
+        "[ ] The `AE.KIND.PER.NOR_S` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `NOR_S` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.NOR_S` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.OBL",
+      "checks": [
+        "[ ] The `AE.KIND.PER.OBL` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `OBL` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.OBL` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.OCC",
+      "checks": [
+        "[ ] The `AE.KIND.PER.OCC` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `OCC` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.OCC` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.KIND.PER.REC",
+      "checks": [
+        "[ ] The `AE.KIND.PER.REC` accountable entity kind is defined explicitly.",
+        "[ ] It maps exactly to the upstream `REC` profile kind.",
+        "[ ] It is not renamed, merged, split, or reinterpreted."
+      ],
+      "failure_conditions": [
+        "`AE.KIND.PER.REC` is missing, renamed, merged, split,"
+      ]
+    },
+    {
+      "id": "AE.SCOPE.EXCLUSIONS",
+      "checks": [
+        "[ ] domain vocabularies",
+        "[ ] behavioral models",
+        "[ ] causal explanations",
+        "[ ] epistemic evaluation",
+        "[ ] authority",
+        "[ ] legitimacy",
+        "[ ] obligation",
+        "[ ] normative judgment or enforcement",
+        "[ ] exchange or interaction mechanisms",
+        "[ ] governance, approval, or lifecycle rules",
+        "[ ] contextual evidence, explanation, or attestation interfaces",
+        "[ ] new identity regimes",
+        "[ ] new persistence rules",
+        "[ ] new transformation semantics"
+      ],
+      "failure_conditions": [
+        "Presence of any excluded concern as an AE-defined construct constitutes non-conformance."
+      ]
+    }
+  ]
+}

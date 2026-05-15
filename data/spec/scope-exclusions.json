@@ -1,0 +1,25 @@
+{
+  "schema": "se-boundary-scope-exclusions-1",
+  "spec": {
+    "id": "AE",
+    "name": "Governance Boundary",
+    "version": "0.9.1",
+    "status": "normative"
+  },
+  "excluded": [
+    "domain vocabularies",
+    "behavioral models",
+    "causal explanations",
+    "epistemic evaluation",
+    "authority",
+    "legitimacy",
+    "obligation",
+    "normative judgment or enforcement",
+    "exchange or interaction mechanisms",
+    "governance, approval, or lifecycle rules",
+    "contextual evidence, explanation, or attestation interfaces",
+    "new identity regimes",
+    "new persistence rules",
+    "new transformation semantics"
+  ]
+}

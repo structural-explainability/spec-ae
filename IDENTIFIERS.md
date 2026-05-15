@@ -23,7 +23,7 @@ editorial discretion and ensure deterministic placement.
 
 All identifiers follow this pattern:
 
-AE.<CATEGORY>.<SUBCATEGORY>.<QUALIFIER>
+All identifiers begin with `AE.` and use uppercase dot-separated semantic terms.
 
 Identifiers are:
 
@@ -75,29 +75,41 @@ AE.KIND.EXACT_COUNT.V1
 
 - States that exactly six accountable entity kinds are defined for AE v1.
 
-AE.KIND.K1
+AE.KIND.PER.CTX_E
 
-- Placeholder for the first accountable entity kind defined in AE v1. Specific semantics are defined in SPEC.md.
+- Placeholder for the Person entity kind under the Contextual-Epistemic regime.
 
-AE.KIND.K2
+AE.KIND.PER.CTX_S
 
-- Placeholder for the second accountable entity kind defined in AE v1. Specific semantics are defined in SPEC.md.
+- Placeholder for the Person entity kind under the Contextual-Social regime.
 
-AE.KIND.K3
+AE.KIND.PER.ENR_I
 
-- Placeholder for the third accountable entity kind defined in AE v1. Specific semantics are defined in SPEC.md.
+- Placeholder for the Person entity kind under the Enactment-Instrumental regime.
 
-AE.KIND.K4
+AE.KIND.PER.ENR_L
 
-- Placeholder for the fourth accountable entity kind defined in AE v1. Specific semantics are defined in SPEC.md.
+- Placeholder for the Person entity kind under the Enactment-Legal regime.
 
-AE.KIND.K5
+AE.KIND.PER.NOR_C
 
-- Placeholder for the fifth accountable entity kind defined in AE v1. Specific semantics are defined in SPEC.md.
+- Placeholder for the Person entity kind under the Normative-Contractual regime.
 
-AE.KIND.K6
+AE.KIND.PER.NOR_S
 
-- Placeholder for the sixth accountable entity kind defined in AE v1. Specific semantics are defined in SPEC.md.
+- Placeholder for the Person entity kind under the Normative-Social regime.
+
+AE.KIND.PER.OBL
+
+- Placeholder for the Person entity kind under the Obligatory regime.
+
+AE.KIND.PER.OCC
+
+- Placeholder for the Person entity kind under the Occurrent regime.
+
+AE.KIND.PER.REC
+
+- Placeholder for the Person entity kind under the Record regime.
 
 AE.SCOPE.EXCLUSIONS
 

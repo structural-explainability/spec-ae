@@ -1,0 +1,96 @@
+{
+  "schema": "se-boundary-requirements-1",
+  "spec": {
+    "id": "AE",
+    "name": "Governance Boundary",
+    "version": "0.9.1",
+    "status": "normative"
+  },
+  "requirements": [
+    {
+      "id": "AE.CONFORMANCE.SE.REQUIRED",
+      "note": "States that Accountable Entities conforms to the Structural Explainability specification.",
+      "normative_source": "SPEC.md#AE.CONFORMANCE.SE.REQUIRED"
+    },
+    {
+      "id": "AE.DEFINITION.CORE",
+      "note": "Defines Accountable Entities as a structural specification for entity kinds and identity regimes.",
+      "normative_source": "SPEC.md#AE.DEFINITION.CORE"
+    },
+    {
+      "id": "AE.EXTENSION.ADMISSIBILITY",
+      "note": "Defines the criteria that any future extension of the entity kind set MUST satisfy.",
+      "normative_source": "SPEC.md#AE.EXTENSION.ADMISSIBILITY"
+    },
+    {
+      "id": "AE.EXTENSION.VERSIONED_ONLY",
+      "note": "States that extension of entity kinds is permitted only in a new major version of the specification.",
+      "normative_source": "SPEC.md#AE.EXTENSION.VERSIONED_ONLY"
+    },
+    {
+      "id": "AE.IDENTITY.REGIME.MAPPING",
+      "note": "Requires that each entity kind corresponds to a distinct identity and persistence regime.",
+      "normative_source": "SPEC.md#AE.IDENTITY.REGIME.MAPPING"
+    },
+    {
+      "id": "AE.KIND.CLOSED_SET.V1",
+      "note": "States that the set of accountable entity kinds is closed for AE v1.",
+      "normative_source": "SPEC.md#AE.KIND.CLOSED_SET.V1"
+    },
+    {
+      "id": "AE.KIND.EXACT_COUNT.V1",
+      "note": "States that exactly six accountable entity kinds are defined for AE v1.",
+      "normative_source": "SPEC.md#AE.KIND.EXACT_COUNT.V1"
+    },
+    {
+      "id": "AE.KIND.PER.CTX_E",
+      "note": "Placeholder for the Person entity kind under the Contextual-Epistemic regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.CTX_E"
+    },
+    {
+      "id": "AE.KIND.PER.CTX_S",
+      "note": "Placeholder for the Person entity kind under the Contextual-Social regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.CTX_S"
+    },
+    {
+      "id": "AE.KIND.PER.ENR_I",
+      "note": "Placeholder for the Person entity kind under the Enactment-Instrumental regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.ENR_I"
+    },
+    {
+      "id": "AE.KIND.PER.ENR_L",
+      "note": "Placeholder for the Person entity kind under the Enactment-Legal regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.ENR_L"
+    },
+    {
+      "id": "AE.KIND.PER.NOR_C",
+      "note": "Placeholder for the Person entity kind under the Normative-Contractual regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.NOR_C"
+    },
+    {
+      "id": "AE.KIND.PER.NOR_S",
+      "note": "Placeholder for the Person entity kind under the Normative-Social regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.NOR_S"
+    },
+    {
+      "id": "AE.KIND.PER.OBL",
+      "note": "Placeholder for the Person entity kind under the Obligatory regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.OBL"
+    },
+    {
+      "id": "AE.KIND.PER.OCC",
+      "note": "Placeholder for the Person entity kind under the Occurrent regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.OCC"
+    },
+    {
+      "id": "AE.KIND.PER.REC",
+      "note": "Placeholder for the Person entity kind under the Record regime.",
+      "normative_source": "SPEC.md#AE.KIND.PER.REC"
+    },
+    {
+      "id": "AE.SCOPE.EXCLUSIONS",
+      "note": "Defines what Accountable Entities explicitly does not specify.",
+      "normative_source": "SPEC.md#AE.SCOPE.EXCLUSIONS"
+    }
+  ]
+}
