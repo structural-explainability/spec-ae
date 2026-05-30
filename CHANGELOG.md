@@ -126,3 +126,5 @@ git push origin :refs/tags/vX.Z.Y
 [Unreleased]: https://github.com/structural-explainability/spec-ae/compare/v0.9.1...HEAD
 [0.9.1]: https://github.com/structural-explainability/spec-ae/releases/tag/v0.9.1
 [0.9.0]: https://github.com/structural-explainability/spec-ae/releases/tag/v0.9.0
+
+<!-- markdownlint-enable MD024 -->
