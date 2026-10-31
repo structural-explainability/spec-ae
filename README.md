@@ -1,3 +1,23 @@
+# ARCHIVED: SUPERSEDED RESEARCH
+
+> **Status:** Retired October 2026. No longer maintained.
+>
+> This repository represents an earlier stage of the Structural Explainability
+> research program. It contributed to the development of the current research
+> but has been superseded by subsequent theoretical and empirical work.
+>
+> **The specifications, classifications, and conformance requirements in this
+> repository are no longer authoritative and must not be treated as current
+> Structural Explainability requirements.**
+>
+> This repository is preserved for historical reference and citation only.
+> No further development is planned, and no replacement specification is intended.
+>
+> For current research, formalizations, implementations, and verification,
+> visit the [Structural Explainability organization](https://github.com/structural-explainability).
+
+---
+
 # Accountable Entities Specification (AE)
 
 [![Repo](https://img.shields.io/badge/repo-GitHub-black?logo=github)](https://github.com/structural-explainability/spec-ae)
