@@ -3,6 +3,7 @@
 # ============================================================
 
 schema = "se-manifest-schema"
+schema_version = "0.5.0"
 schema_url = "https://raw.githubusercontent.com/structural-explainability/se-manifest-schema/main/manifest-schema.toml"
 
 # === Framework Context ===
@@ -14,10 +15,10 @@ purpose = "Declares this repository's role in the Structural Explainability ecos
 
 # === Repository Identity ===
 
-[repo]
+[repository]
+organization = "structural-explainability"
 name = "spec-ae"
-org  = "structural-explainability"
-class = "spec"
+class = "specification"
 kind = "specification"
 status = "active"
 since = "2025"
@@ -32,7 +33,7 @@ role  = "specification"
 # === Dependency Declarations ===
 
 [depends]
-required = [{ repo = "spec-se", kind = "semantic", version = "v1" }]
+required = [{ repository = "spec-se", kind = "semantic", version = "v1" }]
 optional = []
 
 # === Provided Artifacts ===
