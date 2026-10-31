@@ -1,5 +1,8 @@
 # Accountable Entities Identifiers (AE)
 
+> **Archived.**
+> **Retired and no longer authoritative. See README.md.**
+
 This document defines the stable requirement identifiers used by the
 Accountable Entities (AE) specification.
 

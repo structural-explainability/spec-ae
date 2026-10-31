@@ -1,5 +1,8 @@
 # Accountable Entities Specification (AE)
 
+> **Archived.**
+> **Retired and no longer authoritative. See README.md.**
+
 Status: Normative
 
 This document defines the normative requirements for conformance with

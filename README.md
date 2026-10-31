@@ -1,24 +1,26 @@
-# ARCHIVED: SUPERSEDED RESEARCH
+# ARCHIVED: Retired Research
 
 > **Status:** Retired October 2026. No longer maintained.
 >
-> This repository represents an earlier stage of the Structural Explainability
-> research program. It contributed to the development of the current research
-> but has been superseded by subsequent theoretical and empirical work.
+> This repository belongs to an earlier stage of the Structural Explainability
+> research program.
+> It informed the current research, which no longer builds on it.
 >
-> **The specifications, classifications, and conformance requirements in this
-> repository are no longer authoritative and must not be treated as current
-> Structural Explainability requirements.**
+> Its specifications, classifications, and conformance requirements
+> **no longer authoritative** and do not reflect current Structural
+> Explainability requirements.
 >
-> This repository is preserved for historical reference and citation only.
-> No further development is planned, and no replacement specification is intended.
+> It is preserved unchanged for historical reference, and
+> so any existing citations and links remain valid.
+> No further development is planned, and
+> no replacement specification is intended.
 >
-> For current research, formalizations, implementations, and verification,
-> visit the [Structural Explainability organization](https://github.com/structural-explainability).
+> For current research, see
+> [Structural Explainability](https://github.com/structural-explainability).
 
 ---
 
-# Accountable Entities Specification (AE)
+## Accountable Entities Specification (AE)
 
 [![Repo](https://img.shields.io/badge/repo-GitHub-black?logo=github)](https://github.com/structural-explainability/spec-ae)
 [![Tooling](https://img.shields.io/badge/python-3.15%2B-blue?logo=python)](./pyproject.toml)
